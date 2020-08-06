@@ -2,7 +2,7 @@
 
 import axios from 'axios';
 
-const API_URL = 'https://arcane-hamlet-89622.herokuapp.com/api/todos/';
+const API_URL = 'https://polar-inlet-06417.herokuapp.com/api/todos/';
 
 export const createTodo = async (task) => {
 	const { data: newTodo } = await axios.post(API_URL, {
